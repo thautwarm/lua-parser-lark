@@ -310,17 +310,11 @@ class block:
     ret: maybe[stmt]
 
 
-block = block
-
-
 @dataclasses.dataclass
 class range:
     low: expr
     high: expr
     step: maybe[expr]
-
-
-range = range
 
 
 @dataclasses.dataclass
@@ -330,22 +324,13 @@ class if_elseif:
     elif_body: block
 
 
-if_elseif = if_elseif
-
-
 @dataclasses.dataclass
 class if_else:
     pos: token
     else_body: block
 
 
-if_else = if_else
-
-
 @dataclasses.dataclass
 class params:
     names: list[token]
     vararg: maybe[token]
-
-
-params = params
