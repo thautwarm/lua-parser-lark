@@ -31,6 +31,6 @@ Stats by [term counter](https://gist.github.com/thautwarm/902f73fb772284a59fc2f1
 
 | file  | characters | lines | description |
 |----|---|---|---|
-| lua.lark | 5503 | 123 | define grammar |
-| lua_construct.py | 5409 | 228 | define ASTs |
-| lua_require.py |  745 | 27 | define necessary operations <br /> to construct ASTs |
+| lua.lark | 3979 | 123 | define grammar |
+| lua_construct.py | 4172 | 228 | define ASTs |
+| lua_require.py |  599 | 27 | define necessary operations <br /> to construct ASTs |
