@@ -24,3 +24,13 @@ It supports full lua 5.3 syntax except
 
 3. comments support only `-- ...` form, i.e., line comments.
 
+
+## Stats of non-generated part
+
+Stats by [term counter](https://gist.github.com/thautwarm/902f73fb772284a59fc2f1401a974eb3)
+
+| file | tokens | characters | lines | description |
+|----|----|---|---|---|
+| lua.lark | 642 | 3984 | 164 | define grammar |
+| lua_construct.py | 981 | 4177 | 336 | define ASTs |
+| lua_require.py |  175 | 604 | 34 | define necessary operations <br /> to construct ASTs |
