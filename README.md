@@ -29,8 +29,8 @@ It supports full lua 5.3 syntax except
 
 Stats by [term counter](https://gist.github.com/thautwarm/902f73fb772284a59fc2f1401a974eb3)
 
-| file | tokens | characters | lines | description |
-|----|----|---|---|---|
-| lua.lark | 642 | 3984 | 164 | define grammar |
-| lua_construct.py | 981 | 4177 | 336 | define ASTs |
-| lua_require.py |  175 | 604 | 34 | define necessary operations <br /> to construct ASTs |
+| file  | characters | lines | description |
+|----|---|---|---|
+| lua.lark | 5503 | 123 | define grammar |
+| lua_construct.py | 5409 | 228 | define ASTs |
+| lua_require.py |  745 | 27 | define necessary operations < br /> to construct ASTs |
