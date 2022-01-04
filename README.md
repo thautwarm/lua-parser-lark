@@ -8,7 +8,7 @@ This is a Python-Lark implementation of Lua 5.3 parser. It has the following fea
 2. the generated parser creates declarative and typed Python dataclasses instead of error-prone CSTs -- that's why we call it "out-of-box".
 
 
-[Fable.Sedlex](https://github.com/thautwarm/Fable.Sedlex), which is an F\# port of OCaml sedlex project and transpiled into Python, is used to achieve high-quality lexer that avoids unnecessary collisions of lexical rules.
+[Fable.Sedlex](https://github.com/thautwarm/Fable.Sedlex), which is an F\# port of OCaml sedlex project and transpiled into Python, is used in this parser to achieve high-quality lexer that avoids unnecessary collisions of lexical rules.
 
 ## Motivation
 
